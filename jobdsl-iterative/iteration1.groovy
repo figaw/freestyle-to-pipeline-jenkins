@@ -30,7 +30,7 @@ def jobconfig = """
 def jobconfignode = new XmlParser().parseText(jobconfig)
 def jobdescnode = new XmlParser().parseText(jobdesc)
 
-job('solution') {
+job('iteration1') {
     configure { node ->
         node << jobdescnode
     }
