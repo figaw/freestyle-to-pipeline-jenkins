@@ -25,3 +25,7 @@ the demo.
 You can explore the demos on your own;
 watch the presentation, and do them alongside;
 or go through the slides, and do the demos yourself.
+
+## Other Talks
+
+[Configuration as Code of Jenkins (for Kubernetes)](https://github.com/figaw/configuration-as-code-jenkins-k8s)
