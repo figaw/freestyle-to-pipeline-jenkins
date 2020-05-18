@@ -1,0 +1,6 @@
+jenkins:
+    systemMessage: "Configured as Code"
+
+security:
+    globaljobdslsecurityconfiguration:
+        useScriptSecurity: false
