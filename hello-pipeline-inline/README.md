@@ -1,34 +1,26 @@
-# Hello World, JobDSL Wrapper
+# Hello Pipeline, JobDSL Wrapper
 
 ## Purpose
 
-To show that we can wrap a pipeline in JobDSL.
+To show that we can configure a Pipeline job
+with JobDSL.
 
 ## Steps
 
-1. Create a new job in Jenkins, call it `demo-seed-jobdsl-wrapper`
+1. Create a new Freestyle job in Jenkins,
+  call it `demo-seed-hello-pipeline-inline`
 
-1. Copy-paste the code from slide into JobDSL build step
-
-    ```groovy
-    pipelineJob('hello-pipeline-inline') {
-      definition { cps { script("""
-        pipeline {
-          agent any
-          stages {
-            stage('Hello, World!') {
-              steps {
-                sh 'echo "Hello, World!"'
-              }
-            }
-          }
-        }
-      """) } }
-    }
-    ```
+1. Paste the code from `seed-hello-pipeline-inline.groovy`
+  into a JobDSL build step
 
 1. Save and Run the job.
 
-NB: Notice that a job `hello-pipeline-inline` has been created.
+1. Reload the page and notice that a job
+  `hello-pipeline-inline` has been created.
 
-1. Run it to verify that it prints `Hello, World!`
+1. Run `hello-pipeline-inline` to verify that
+  it prints `Hello, World!`
+
+1. Go to the configuration of the job and
+  notice that it's a Pipeline job; it has a Pipeline block,
+  not a block of build steps.
