@@ -7,22 +7,8 @@ To show that we can wrap JobDSL in a JobDSL job.
 ## Steps
 
 1. Create a new job in Jenkins, call it `demo-seed-inline`
-1. Copy-paste the code from slide into JobDSL build step
 
-    ```groovy
-    job('seed-inline-job') {
-        steps {
-            dsl {
-            text("""
-                job('hello-world-seedet') {
-                steps {
-                    shell('echo Hello, World!')
-                }
-                }""")
-            }
-        }
-    }
-    ```
+1. Copy-paste the code from `seed-hello-world-inline.groovy` into a JobDSL build step
 
 1. Save and Run the job.
 
