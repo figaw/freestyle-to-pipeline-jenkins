@@ -31,3 +31,10 @@ Disclaimer: the Workflow-Aggregator is used for demo purposes,
 it's a bundle of plugins for Jenkins Pipeline.
 In production please depend on the specific plugins
 you actually need, rather than "the latest WA-bundle."
+
+## Notes
+
+I've added basic configuration for the git plugin to jcasc,
+since the `seed-hello-world-external` clones from a git repository,
+and Jenkins tags the commit locally, and need to have a user
+configured in git for this.
