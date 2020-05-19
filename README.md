@@ -8,7 +8,8 @@ Demo resources for the talk on the 19th of May, for the Jenkins Online Meetup gr
 
 ### Slides
 
-The slides from the presentation is available in handout format, TBD.
+The slides from the presentation is available in handout format
+    in the file `from-freestyle-jobs-to-pipeline-with-jobdsl.pdf`
 
 ### Video
 
