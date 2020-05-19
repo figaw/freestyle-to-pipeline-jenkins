@@ -29,3 +29,12 @@ or go through the slides, and do the demos yourself.
 ## Other Talks
 
 [Configuration as Code of Jenkins (for Kubernetes)](https://github.com/figaw/configuration-as-code-jenkins-k8s)
+
+## Google Cloud Shell
+
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Ffigaw%2Ffreestyle-to-pipeline-jenkins&cloudshell_print=docs%2Fcloud-shell-readme.md&cloudshell_open_in_editor=README.md)
+
+1. `cd` into `basic-jcasc`
+1. run the `build.sh` script
+1. run the `run.sh` script
+1. use the Web Preview to access Jenkins on port 8080
