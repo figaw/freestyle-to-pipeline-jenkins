@@ -1,10 +1,10 @@
-job('seed-inline-job') {
+job('seed-external-job') {
+  scm {
+      git('https://github.com/figaw/freestyle-to-pipeline-jenkins.git')
+  }
   steps {
-    scm {
-        git('https://github.com/figaw/freestyle-to-pipeline-jenkins.git')
-    }
     dsl {
-      external('seed-hello-world-external/hello-world-external.groovy')
+      external('seed-hello-world-external/hello_world_external.groovy')
     }
   }
 }
