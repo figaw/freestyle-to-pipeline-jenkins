@@ -12,7 +12,7 @@ To show that we can wrap JobDSL in a JobDSL job.
 
 1. Save and Run the job.
 
-NB: Notice that a job `seed-inline-job` has been created.
+    NB: Notice that a job `seed-inline-job` has been created.
 
 1. Go to the `seed-inline-job`-job and run this.
 
