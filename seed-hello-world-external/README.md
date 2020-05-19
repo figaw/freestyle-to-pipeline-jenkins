@@ -7,6 +7,7 @@ To show that we can wrap JobDSL in a JobDSL job.
 ## Steps
 
 1. Create a new job in Jenkins, call it `demo-seed-external`
+
 1. Copy-paste the code from `seed-hello-world-external.groovy` into a JobDSL build step
 
 1. Save and Run the job.
