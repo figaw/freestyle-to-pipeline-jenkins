@@ -13,7 +13,7 @@ The slides from the presentation is available in handout format
 
 ### Video
 
-You can find the recording on YouTube: [https://www.youtube.com/watch?v=KB7thPsG9VA](https://www.youtube.com/watch?v=KB7thPsG9VA).
+You can find the recording on YouTube: <https://www.youtube.com/watch?v=uhD49XXiRqY>.
 
 ## Demo Resources
 
